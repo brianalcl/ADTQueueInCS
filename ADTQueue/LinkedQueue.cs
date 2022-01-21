@@ -32,7 +32,7 @@ namespace ADTQueue
             else
                 tail.SetNext(nodo);
             tail = nodo;
-            size++; 
+            size++;
         }
         public E Front()
         {
